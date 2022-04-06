@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #C83BE3, #862F96);
+}
+
+h1 {
+    background-color: #22A331;
+    height: 47px;
+    width: 1270px;
+    border: 10px solid #22A331;
+    padding: 10px;
+    margin: -4px;
+    text-align: center;
+    box-shadow: 0 5.5px 0 #15631E;
+
+    font-family: 'Cinzel', serif;
+}
+
+h1:hover {
+    background-color: #23942e;
+    border: 10px solid #23942e;
+}
+
+
+a {
+   border: 3.5px solid red; 
+}
+
+div {
+    background-color: lightcoral;
+
+    height: 300px;
+    width: 650px;
+    margin: auto;
+}
+
+div > p {
+    text-align: justify;
+    font-family: 'Cinzel', serif;;
+}

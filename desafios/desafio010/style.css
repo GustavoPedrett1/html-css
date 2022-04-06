@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #84f797;
+}
+
+header {
+    font-family: 'Bebas Neue', cursive;
+    background-image: linear-gradient(to top, #3ed862, #1b9930, rgb(9, 133, 23));
+    padding: 10px;
+    color: white;
+    margin: -8px;
+    padding-bottom: 10px;
+}
+
+header > h1, p {
+    text-align: center;
+}
+
+header > p {
+    font-size: 1.2em;
+}
+
+header > h1 {
+    font-size: 2.5em;
+}
+
+nav > a:hover {
+    display: inline;
+    background-color: #095f18b6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav > a:active {
+    color: rgba(0, 0, 0, 0.528);
+}
+
+nav > a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: #fff;
+}
+
+main {
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 4px 3px 16px rgba(0, 0, 0, 0.398);
+    background-color: #fff;
+    margin: 125px;
+    margin-top: -40px;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+}
+
+article > h1,h2 {
+    font-family: 'Android';
+    padding: 0px 30px 0px 30px;
+
+}
+
+article > h2 {
+    display: inline;
+    background-image: linear-gradient(to left, #20ad104d, #68e65aa6);
+    color: #1C802D;
+    font-size: 2em;
+    padding-left: 40px;
+    box-shadow: 5px 5px 10px #12520987;
+}
+
+article > h1 {
+    color: #1C802D;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+article > p {
+    text-align: start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px 30px 0px 50px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
+
+p > a {
+    text-decoration: none;
+    background-color: lightgreen;
+    color: #1f6329;
+}
+
+p > a:active {
+    background-color: rgb(84, 248, 84);
+}
+
+aside > img {
+    text-align: center;
+}
+
+aside {
+    padding-top: 15px;
+    text-align: center;
+}
+
+footer > p{
+    background-image: linear-gradient(to top, #1C802D, #1fbb43, #16912b46);
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: -8px;
+    color: #fff;
+}
+
+#video {
+    background-color: #1f6329;
+    margin-top: 15px;
+    padding-bottom: 11px;
+}
+
+iframe {
+    width: 950px;
+}
+
+#curiosidades {
+    background-color: rgba(125, 247, 125, 0.515);
+    margin: 20px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+ul > li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#curiosidades > h3{
+    background-color: #1C802D;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+
+span {
+    background-color: lightgreen;
+    color: #1C802D;
+}
+
+section > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: #3894E0;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            box-shadow: 0 5px 0 #183161;
+        } 
+
+        div:hover {
+            background-color: #2B73AD;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+            
+
+    </style>
+</head>
+<body>
+    <div id="d1">01
+        <p>Standing here</p>
+    </div>
+    <div id="d2">02
+        <p>I realize</p>
+    </div>
+    <div id="d3">03
+        <p>You're just like me</p>
+    </div>
+</body>
+</html>

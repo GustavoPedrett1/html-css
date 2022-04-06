@@ -1,0 +1,20 @@
+body {
+    background-color: lightseagreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+h1 {
+    color: lightgreen;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: darkmagenta;
+}
+
+p {
+    text-align: justify;
+    text-align: center;
+}

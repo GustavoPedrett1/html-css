@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {
+    font-family: 'Cinzel', serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+ 
+header {
+    background-color: #fff;
+    padding: 8px;
+    padding-top: 1px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 5px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.323);
+}
+
+nav {
+    background-color: rgba(112, 111, 111, 0.905);
+    padding: 3px;
+    box-shadow: 5px 5px 4px #4a4a4aad;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    padding-right: 30px;
+    text-align: center;
+}
+
+aside > p {
+}
+
+nav > a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+article > h2.jojotit {
+    background-color: #4a4a4aad;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.666);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+article > aside {
+    background-color: rgba(112, 111, 111, 0.905);
+}
+
+div#bola {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}

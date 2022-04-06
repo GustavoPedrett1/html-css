@@ -1,0 +1,64 @@
+/* corpo do botão*/
+button.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+/*cor e sombra do botão*/
+button.btn-rose {
+    background-color: #E00249;
+    box-shadow: 0 5px 0 #611E33;
+}
+/*efeito de sombra com mouse em cima*/
+button.btn-rose:hover {
+   background-color: #AD0137;
+}
+/*efeito de profundidade ao clicar*/
+button.btn-rose:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+button.btns {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.btns-green {
+    background-color: #02E02B;
+    box-shadow: 0 5px 0 #1E612A;
+}
+
+button.btns-green:hover {
+    background-color: #02AD21;
+}
+/*efeito sobe e desce quando clicado*/
+button.btns-green:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+/*centralizar a div com os botões*/
+div.areabtn {
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: linear-gradient(to right, #F05213, #BD4110);
+}
