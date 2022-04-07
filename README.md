@@ -4,4 +4,4 @@
 
 estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
-<a href="https://gustavopedrett1.github.io/html-css/exercicios/ex002/index.html">executar o exercicio 002</a>
+<a href="https://gustavopedrett1.github.io/html-css/exercicios/ex002/index.html" target="_blank">executar o exercicio 002</a>
