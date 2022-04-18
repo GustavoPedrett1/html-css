@@ -18,3 +18,39 @@ header a {
     text-decoration: none;
     color: #ffff;
 }
+
+article p {
+    font-family: cursive;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+article#verso2 {
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+article#verso4 {
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+article#verso4 p {
+    background-color: rgba(0, 0, 0, 0.456);
+    color: #ffff;
+}
+
+article {
+    height: 1000px;
+}
+
+footer {
+    text-align: center;
+    color: #ffff;
+    background-color: black;
+    padding: 10px;
+    margin: -8px;
+    font-weight: 700;
+}
