@@ -23,12 +23,19 @@ header a:hover {
     text-decoration: underline;
 }
 
-article p {
-    font-family: cursive;
+article > p {
+    font-family: ;
+}
+
+.fundo_bran > p {
     font-size: 2.5em;
-    text-align: left;
-    color: #ffff;
-    background-color: rgba(0, 0, 0, 0.429);
+}
+
+.fundo_painel > p {
+    font-size: 2.5em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.524);
+    padding: 1px;
 }
 
 article#verso2 {
@@ -41,6 +48,7 @@ article#verso4 {
     background-image: url('imagens/background002.jpg');
     background-attachment: fixed;
     background-size: cover;
+    height: 331px;
 }
 
 article#verso4 p {
@@ -48,8 +56,14 @@ article#verso4 p {
     color: #ffff;
 }
 
+
+
 article {
     height: 1000px;
+}
+
+.fundo_bran {
+    color: black;
 }
 
 footer {
