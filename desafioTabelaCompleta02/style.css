@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.info {
+    background-color: rgba(128, 128, 128, 0.59);
+    color: white;
+}
+
+.med {
+    text-align: start;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
