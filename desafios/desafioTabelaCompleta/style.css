@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    background-color: rgba(148, 148, 148, 0.709);
+}
+
+tr > th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.cor {
+    background-color: rgba(148, 148, 148, 0.709);
+}
