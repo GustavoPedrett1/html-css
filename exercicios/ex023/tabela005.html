@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 5px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 6.5px;
+        }
+
+        .info {
+            background-color: rgba(128, 128, 128, 0.522);
+        }
+
+        tr.destaque {
+            background-color: crimson;
+        }
+
+        col.nome {
+            background-color: gray;
+        }
+
+        col.idade {
+            background-color: violet;
+        }
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo"> 
+            <col class="idade" span="2">     
+        </colgroup>
+        
+        
+        <caption>Cadastro</caption>
+        <tr class="info">
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>52</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Jeferson</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Biólogo Marinho</td>
+        </tr>
+        <tr>
+            <td>Raiane</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Estudante</td>
+        </tr>
+        <tr class="destaque">
+            <td>Marla</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Contadora</td>
+        </tr>
+        <tr>
+            <td>Mike</td>
+            <td>M</td>
+            <td>36</td>
+            <td>Tradutor</td>
+        </tr>
+    </table>
+</body>
+</html>
